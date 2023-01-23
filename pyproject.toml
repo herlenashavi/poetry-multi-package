@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry-multi-package"
+version = "0.1.0"
+description = ""
+authors = ["Avinash Herle <avinash.herle@canvass.io>"]
+readme = "README.md"
+packages = [{include = "poetry_multi_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
